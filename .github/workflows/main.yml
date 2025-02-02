@@ -1,19 +1,10 @@
-
-
-"postStartCommand": "python3/workspaces/soulcracks/
-
+"name": "My Codespace",
+"image": "ubuntu:22.04",
+"postStartCommand": "python3/workspaces/soulcracks/soul.py",
 "customizations": {
-
 "vscode": {
-
 "settings": {
-
 "python.pythonPath": "/usr/local/bin/python"
-
 },
-
-'extensions": [
-
+"extensions": [
 "ms-python.python"
-
-sr
