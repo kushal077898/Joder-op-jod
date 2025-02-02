@@ -1,14 +1,21 @@
-from flask import Flask, render_template
-from threading import Thread
+"name": "My Codespace",
 
-app = Flask(__name__)
-@app.route('/')
-def index():
-    return "Alive"
+"image": "ubuntu:22.04",
 
-def run():
-    app.run(host='0.0.0.0',port=8080)
+"postStartCommand": "python3/workspaces/soulcracks/
 
-def keep_alive():
-    t = Thread(target=run)
-    t.start()    
+"customizations": {
+
+"vscode": {
+
+"settings": {
+
+"python.pythonPath": "/usr/local/bin/python"
+
+},
+
+'extensions": [
+
+"ms-python.python"
+
+sr
